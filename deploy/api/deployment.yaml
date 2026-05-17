@@ -15,8 +15,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: gitops-lab-api:latest
-          imagePullPolicy: Never
+          image: ghcr.io/jhlee95129/gitops-lab-api:latest
           ports:
             - containerPort: 4000
           env:

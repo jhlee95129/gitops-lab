@@ -15,8 +15,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: gitops-lab-web:latest
-          imagePullPolicy: Never
+          image: ghcr.io/jhlee95129/gitops-lab-web:latest
           ports:
             - containerPort: 3000
           env:
