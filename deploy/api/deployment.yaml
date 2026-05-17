@@ -4,7 +4,7 @@ metadata:
   name: api
   namespace: gitops-lab
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: api
